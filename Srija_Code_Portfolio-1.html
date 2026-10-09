@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/pagad/srija.portfolio.html#projects -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        /* Navigation */
+        header {
+            background: #111827;
+            color: white;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        /* Home */
+        #home {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+        }
+
+        .home-content h1 {
+            font-size: 50px;
+            color: #111827;
+            margin-bottom: 10px;
+        }
+
+        .home-content h2 {
+            font-size: 28px;
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        .home-content p {
+            font-size: 18px;
+            max-width: 650px;
+            margin: auto;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        /* Common Section */
+        section {
+            padding: 70px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+            color: #111827;
+        }
+
+        /* About */
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Skills */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill {
+            background: white;
+            padding: 20px 35px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+
+        .skill:hover {
+            transform: translateY(-5px);
+            transition: 0.3s;
+        }
+
+        /* Projects */
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        /* Education */
+        .education {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .education-box {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #2563eb;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        .education-box h3 {
+            color: #2563eb;
+        }
+
+        /* Contact */
+        .contact {
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px;
+        }
+
+        .contact a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        footer {
+            background: #111827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+
+            header {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            nav a {
+                margin: 0 8px;
+                font-size: 14px;
+            }
+
+            .home-content h1 {
+                font-size: 38px;
+            }
+
+            .home-content h2 {
+                font-size: 22px;
+            }
+
+            .section-title {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <div class="logo">My Portfolio</div>
+
+        <nav>
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#home">Home</a>
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#about">About</a>
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#skills">Skills</a>
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#projects">Projects</a>
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#education">Education</a>
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+
+            <h1>Hello, I'm Srija </h1>
+
+            <h2>B.Tech CSE - AIML Student</h2>
+
+            <p>
+                I am a passionate Computer Science student interested in
+                Artificial Intelligence, Machine Learning, Web Development
+                and Software Technologies.
+            </p>
+
+            <a href="file:///C:/Users/pagad/srija.portfolio.html#contact" class="btn">Contact Me</a>
+
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about">
+
+            <p>
+                I am currently pursuing my B.Tech in Computer Science and
+                Engineering with Artificial Intelligence and Machine Learning.
+                I enjoy learning new technologies and developing projects
+                using programming and web development.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill">Python</div>
+            <div class="skill">C</div>
+            <div class="skill">C++</div>
+            <div class="skill">Java</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Artificial Intelligence</div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project">
+                <h3>AI Language Translation Tool</h3>
+                <p>
+                    A web-based AI language translation application developed
+                    using Python and Streamlit.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>FAQ Chatbot</h3>
+                <p>
+                    A chatbot project designed to answer frequently asked
+                    questions using AI concepts.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Employee Management System</h3>
+                <p>
+                    A database management project developed using SQL and
+                    database concepts.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Machine Learning Classification</h3>
+                <p>
+                    A machine learning project comparing Logistic Regression
+                    and Decision Tree classification algorithms.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="education">
+
+            <div class="education-box">
+                <h3>B.Tech - CSE (AIML)</h3>
+                <p>Currently pursuing</p>
+            </div>
+
+            <div class="education-box">
+                <h3>Intermediate - MPC</h3>
+                <p>srichaithanya junior College</p>
+            </div>
+
+            <div class="education-box">
+                <h3>School Education</h3>
+                <p>TSWR Malkajgiri School</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact">
+
+            <p>
+                📧 Email:
+                <a href="mailto:yourmail@gmail.com">
+                    srija03mail@gmail.com
+                </a>
+            </p>
+
+            <p>
+                💼 LinkedIn:
+                <a href="file:///C:/Users/pagad/srija.portfolio.html#" target="_blank">
+                    My LinkedIn
+                </a>
+            </p>
+
+            <p>
+                💻 GitHub:
+                <a href="file:///C:/Users/pagad/srija.portfolio.html#" target="_blank">
+                    My GitHub
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Srija| All Rights Reserved
+        </p>
+
+    </footer>
+
+
+</body></html>
